@@ -21,7 +21,7 @@ public class App {
         }
         
 
-        //POV: when I see java code: "Run with your life bro"
+        //some of art
         System.out.println("    O   ");
         System.out.println("   /|\\/ ");
         System.out.println("   \\/\\   ");
