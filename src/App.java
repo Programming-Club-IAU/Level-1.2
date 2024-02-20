@@ -1,11 +1,4 @@
 import java.util.Scanner;
-/*
-        System.out.println("(\\__/)");
-        System.out.println("( 0.0)");
-        System.out.println("/    >");
-        System.out.println("v___v");
-
-*/
 public class App {
     public static void main(String[] args){
         
