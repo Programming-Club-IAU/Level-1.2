@@ -7,8 +7,8 @@ public class CompareNumbers {
         int firstNumber = scanner.nextInt();
         System.out.println("Please enter the second number:");
         int secondNumber = scanner.nextInt();
-        String art =   "K   K   SSSS  A   A\n" +
-                       "K  K   S      A A\n" +
+        String art =   "K   K   SSSS   A  \n" +
+                       "K  K   S      A A \n" +
                        "KKK    SSS   AAAAA\n" +
                        "K  K      S  A   A\n" +
                        "K   K  SSSS  A   A\n";
