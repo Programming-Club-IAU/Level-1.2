@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+public class main{
+public static void main(String args[]){
+       Scanner wawa = new Scanner(System.in);
+       System.out.println("enter x");
+       int x = wawa.nextInt();
+       System.out.println("enter y");
+       int y=wawa.nextInt();
+       if(x>y)
+           System.out.println(x+" is greater than "+y);
+       else if(y>x)
+           System.out.println(y+" is greater than "+x);
+       else
+           System.out.println(x+" is equals to "+y);
+
+   }}
