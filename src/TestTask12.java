@@ -46,7 +46,7 @@ public class TestTask12 {
 
             System.out.println("   +---------------------------------+   \n");
             System.out.println("   |                                 |   \n");
-            System.out.println("   |  The Maximum of Two Number is: "|   \n");
+            System.out.println("   |  The Maximum of Two Number is:  |   \n");
             System.out.println("   |           "+max+"               |   \n");
             System.out.println("   |                                 |   \n");
             System.out.println("   +---------------------------------+   \n");
@@ -60,7 +60,7 @@ public class TestTask12 {
 
             System.out.println("   +---------------------------------+   \n");
             System.out.println("   |                                 |   \n");
-            System.out.println("   |  The Maximum of Two Number is: "|   \n");
+            System.out.println("   |  The Maximum of Two Number is:  |   \n");
             System.out.println("   |           "+max+"               |   \n");
             System.out.println("   |                                 |   \n");
             System.out.println("   +---------------------------------+   \n");
@@ -97,7 +97,7 @@ public class TestTask12 {
         System.out.println("           |   |                                         |    |");
         System.out.println("           |   |_________________________________________|    |");
         System.out.println("           |                                                  |");
-        System.out.println("            \\_________________________________________________/");
+        System.out.println("           \\_________________________________________________/");
         System.out.println("                   \\___________________________________/");
         System.out.println("                ___________________________________________");
         System.out.println("             _-'    .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.  --- `-_");
