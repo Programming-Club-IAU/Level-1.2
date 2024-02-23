@@ -16,11 +16,16 @@ public class TestTask12 {
         System.out.println("   +---------------------------------+   \n");
 
         Scanner Input = new Scanner(System.in);
-        if (Input.hasNextInt()) {
-            num1 = Input.nextInt();
-        } else {
+        //check if the input is a double & Convert double to int
+        if(Input.hasNextDouble()){
+            double doubleNum1 = Input.nextDouble();
+            num1 = (int) Math.round(doubleNum1);
+        } 
+        else if(Input.hasNextInt()){
+        num1 = Input.nextInt();}
+        else{          //check if the input is a string
             Input.next(); // discard invalid input
-            System.out.println("Invalid Input. Please Enter an Integer Number.\n");
+            System.out.println("Invalid Input. Please Enter an Number.");
             return;
         }
 
@@ -31,11 +36,16 @@ public class TestTask12 {
         System.out.println("   |                                 |   \n");
         System.out.println("   +---------------------------------+   \n");
 
-        if (Input.hasNextInt()) {
-            num2 = Input.nextInt();
-        } else {
+        //check if the input is a double & Convert double to int
+        if(Input.hasNextDouble()){
+            double doubleNum2 = Input.nextDouble();
+            num2 = (int) Math.round(doubleNum2);
+        }         
+        else if(Input.hasNextInt()){
+        num2 = Input.nextInt();}
+        else{          //check if the input is a string
             Input.next(); // discard invalid input
-            System.out.println("Invalid Input. Please Enter an Integer Number.\n");
+            System.out.println("Invalid Input. Please Enter an Number.");
             return;
         }
 
