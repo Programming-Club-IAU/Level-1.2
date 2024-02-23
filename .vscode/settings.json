@@ -1,3 +1,12 @@
 {
+<<<<<<< HEAD
     "code-runner.runInTerminal": true
 }
+=======
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
+>>>>>>> 2118b04ef028da4def9257e6799e4118d96f1eb2
